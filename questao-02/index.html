@@ -6,8 +6,27 @@
         <title>callback</title>
 
         <script src="index.js" charset="utf-8" defer></script>
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <p>olhe o console do navegador</p>
+        <h1>Loteria</h1>
+
+        <ul id="ballsDisplay">
+               
+        </ul>
+
+        <form>
+            <fieldset>
+                <legend>Escolha 6 números diferentes entre 1 e 60</legend>
+                <input id="number1" class="selectedNumber" type="number" min="1" max="60" />
+                <input id="number2" class="selectedNumber" type="number" min="1" max="60" />
+                <input id="number3" class="selectedNumber" type="number" min="1" max="60" />
+                <input id="number4" class="selectedNumber" type="number" min="1" max="60" />
+                <input id="number5" class="selectedNumber" type="number" min="1" max="60" />
+                <input id="number6" class="selectedNumber" type="number" min="1" max="60" />
+                <button type="button" id="play">Sortear</button>
+            </fieldset>
+        </form>
+        
     </body>
 </html>

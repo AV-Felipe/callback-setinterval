@@ -1,0 +1,29 @@
+html {
+    font-size: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+#ballsDisplay {
+    display: flex;
+    column-gap: 5px;
+    height: 60px;
+}
+
+.ball {
+    width: 30px;
+    height: 30px;
+    font-size: 24;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+}
